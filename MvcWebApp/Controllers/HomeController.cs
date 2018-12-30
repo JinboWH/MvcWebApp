@@ -29,6 +29,11 @@ namespace MvcWebApp.Controllers
             return View();
         }
 
+        public IActionResult Redirect()
+        {
+            return Redirect();
+        }
+
         public IActionResult Privacy()
         {
             return View();
