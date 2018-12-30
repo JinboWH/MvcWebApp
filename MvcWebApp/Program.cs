@@ -14,11 +14,7 @@ namespace MvcWebApp
     {
         public static void Main(string[] args)
         {
-            //CreateWebHostBuilder(args).Build().Run();
-            IWebHostBuilder webHostBuider = CreateWebHostBuilder(args);
-            //webHostBuider.Build().Run();
-            IWebHost webHost = webHostBuider.Build();
-            webHost.Run();
+            CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
